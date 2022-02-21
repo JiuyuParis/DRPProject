@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<service-class>
+		<service id="basedata.manager.ItemManager" class="basedata.manager.ItemManagerImpl" ></service>
+		<service id="flowcard.manager.FlowCardManager" class="flowcard.manager.impl.FlowCardManagerImpl" ></service>
+		<service id="statreport.manager.StatReportManager" class="statreport.manager.impl.StatReportManagerImpl" ></service>
+	</service-class>
+	<dao-class>
+		<dao id="basedata.Dao.ItemDao" class="basedata.Dao.ItemDaoMySQL" ></dao>
+		<dao id="flowcard.dao.FlowCardDao" class="flowcard.dao.impl.FlowCardDaoImpl" ></dao>
+	</dao-class>
+</beans>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<MySQLConnection>
+		<driverName>com.mysql.cj.jdbc.Driver</driverName>
+		<url>jdbc:mysql://localhost:3306/drp?serverTimezone=GMT%2B8</url>
+		<user>root</user>
+		<password>paris2030@root</password>
+	</MySQLConnection>
+	
+<!-- 	<dao-factory>
+		<item-dao-factory>basedata.Dao.ItemDaoFactoryMySQL</item-dao-factory>
+	</dao-factory> -->
+</config>

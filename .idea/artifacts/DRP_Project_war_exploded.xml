@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DRP Project:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/DRP_Project_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DRP Project" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="junit5" module-name="DRP Project" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DRP Project/web/Web" />
+    </root>
+  </artifact>
+</component>
